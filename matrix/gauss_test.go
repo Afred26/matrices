@@ -35,7 +35,7 @@ func ExampleMatrix_EliminateBelow() {
 	fmt.Println(m)
 
 	// Output:
-	// [[1 2 3] [0 -0.5 1] [0 4 2]]
+	// [[1 2 3] [0 0.5 -1] [0 -4 -2]]
 
 }
 
