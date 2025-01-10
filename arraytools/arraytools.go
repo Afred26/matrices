@@ -15,3 +15,9 @@ func Add(a, b []float64) {
 		a[i] += b[i]
 	}
 }
+
+func Sub(a, b []float64) {
+	for i := range a {
+		a[i] -= b[i]
+	}
+}

@@ -18,3 +18,12 @@ func ExampleAdd() {
 
 	// Output: [5 -3 9]
 }
+
+func ExampleSub() {
+	a := []float64{1, 2, 3}
+	b := []float64{4, -5, 6}
+	Sub(a, b)
+	fmt.Println(a)
+
+	// Output: [-3 7 -3]
+}

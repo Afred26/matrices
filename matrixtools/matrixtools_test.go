@@ -38,6 +38,20 @@ func ExampleAddRows() {
 	// [4 5 6]
 }
 
+func ExampleSubRows() {
+	m := [][]float64{
+		{1, 2, 3},
+		{4, 5, 6},
+	}
+	SubRows(m, 0, 1)
+	fmt.Println(m[0])
+	fmt.Println(m[1])
+
+	// Output:
+	// [-3 -3 -3]
+	// [4 5 6]
+}
+
 func ExampleScalarMultRow() {
 	m := [][]float64{
 		{1, 2, 3},

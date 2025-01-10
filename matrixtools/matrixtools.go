@@ -24,6 +24,10 @@ func AddRows(m [][]float64, i, j int) {
 	arraytools.Add(m[i], m[j])
 }
 
+func SubRows(m [][]float64, i, j int) {
+	arraytools.Sub(m[i], m[j])
+}
+
 // ScalarMultRow erwartet eine Matrix, eine Zeilennummer und einen skalaren Faktor.
 // Multipliziert die Zeile mit dem Faktor und speichert das Ergebnis in der Zeile.
 func ScalarMultRow(m [][]float64, i int, factor float64) {
