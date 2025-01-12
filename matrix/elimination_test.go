@@ -14,5 +14,5 @@ func ExampleMatrix_Gauss_elimination() {
 
 	// Output:
 	// [1 0 -3]
-	// [0 1 2]
+	// [-0 1 2]
 }

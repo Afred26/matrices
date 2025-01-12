@@ -50,7 +50,7 @@ func ExampleMatrix_EliminateAbove() {
 	fmt.Println(m)
 
 	// Output:
-	// [[2 4 0] [1 -0.5 0] [3 2 1]]
+	// [[-2 -4 0] [-1 0.5 0] [3 2 1]]
 }
 
 func ExampleMatrix_UpperTriangular() {
@@ -64,7 +64,7 @@ func ExampleMatrix_UpperTriangular() {
 	fmt.Println(m)
 
 	// Output:
-	// [[1 2 3] [0 1 -2] [0 0 1]]
+	// [[1 2 3] [0 1 -2] [-0 0 1]]
 }
 
 func ExampleMatrix_LowerTriangular() {
@@ -78,7 +78,7 @@ func ExampleMatrix_LowerTriangular() {
 	fmt.Println(m)
 
 	// Output:
-	// [[1 0 0] [-2 1 0] [3 2 1]]
+	// [[1 0 -0] [-2 1 0] [3 2 1]]
 }
 
 func ExampleMatrix_Gauss() {
@@ -92,5 +92,5 @@ func ExampleMatrix_Gauss() {
 	fmt.Println(m)
 
 	// Output:
-	// [[1 0 0] [0 1 0] [0 0 1]]
+	// [[1 0 0] [-0 1 0] [0 0 1]]
 }

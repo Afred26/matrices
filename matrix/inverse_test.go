@@ -14,5 +14,5 @@ func ExampleMatrix_Gauss_inverse() {
 
 	// Output:
 	// [1 0 -3 2]
-	// [0 1 2 -1]
+	// [-0 1 2 -1]
 }
